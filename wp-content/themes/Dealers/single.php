@@ -304,22 +304,12 @@
                 <p></p>
                 <?php endif; ?>
                 
-                <?php
+                <?php if($deal_files[1]!=''): ?>
                 
-                if($deal_files[1]!='' || 
-                   $deal_files[2]!='' ||
-                   $deal_files[3]!='' ||
-                   $deal_files[4]!='' ||
-                   $deal_files[5]!=''): ?>
-                <h3>Downloads</h3>
-                <ul>
-                <?php foreach($deal_files as $key=>$value): 
-                    if($value != '' ): ?>
-                    <li><a target="_blank" href="<?php echo $value; ?>"><?php echo $value; ?></a></li>
-                <?php 
-                    endif;
-                endforeach; ?>
-                </ul>
+                <a href="<?php echo $deal_files[1]; ?>" target="_blank" class="btn btn-warning">
+                    Download
+                </a>
+                
                 <?php endif; ?>
                 
                 <br>
@@ -327,7 +317,7 @@
             
             <div class="datos-deal">
                 <h3>Get this deal</h3>
-                <p>This is the contact infomation.<br><?php echo $tel; ?>, <?php echo $email; ?> .</p>
+                <p>Contact Information:<br><?php echo $tel; ?>, <?php echo $email; ?></p>
                 <?php if ($latitude != '' && $longitude != '') : ?>
                 <script type="text/javascript"
                     src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAxi-FTjBD-JsDR1iqVylSyHJAyyX3wRaI&sensor=false">

@@ -439,7 +439,7 @@ h5{
     width: 100%;
     height: 20px;
     color: #a7a7a7;
-    font-size: 17px;
+    font-size: 22px;
     font-family: 'Helvetica';
     text-align: center;
     overflow: hidden;
@@ -1896,7 +1896,10 @@ min-width: 0;
     line-height: 50px;
     margin: 70px 0 40px 0;
 }
-
+.title-404 a {
+    color: #c22631;
+    font-family: 'sciflysans',Sans-Serif;
+}
 .border-404{
     width: 436px;
     height: 1px;
@@ -2315,8 +2318,9 @@ margin-left: 0;
 }
 
 .all-deals {
+    font-family: 'sciflysans',Sans-Serif;
     background: #82bf00;
-    width: 164px;
+    width: 170px;
     margin: 0 auto;
     text-align: center;
     color:#fff;
@@ -2330,12 +2334,16 @@ margin-left: 0;
           border-bottom-right-radius: 4px;
 }
 
+.all-deals.home {
+  width: 50px;  
+}
+
 .all-deals a {
     color:#fff;
 }
 
 
-.statistic a.btn {
+.statistic a.btn, .descripcion-deal a.btn {
     height:24px;
     margin: 15px 0 0 0 ;
     width: 167px;

@@ -6,15 +6,14 @@ get_header(); ?>
     <div class="wrapper">
 
         <div class="content-background">
-            <div class="content-wripper">
-
+            
 
 
                 <div class="content-others left">
 
 
-                    <div class="title-404">Looks like the page you were<br />looking for does not exist.<br />Sorry about that.</div>
-
+                    <div class="title-404"><a href="<?php echo home_url();?>">Oops, this deal is no longer available.<br />Check out our ongoing deals &raquo;</a></div>
+                    
                     <div class="border-404"></div>
 
                     <div class="text-404">Check the web address for typos, or visit the <a href="<?php echo home_url(); ?>">home</a> page</div>
@@ -22,7 +21,7 @@ get_header(); ?>
 
 
                 </div><!--/content-others-->
-            </div><!--/content-others-->
+           
         </div><!--/content-others-->
     </div><!--/content-others-->
 </div><!--/content-others-->

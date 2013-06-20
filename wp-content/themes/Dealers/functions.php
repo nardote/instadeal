@@ -523,8 +523,9 @@ function wpt_events_location() {
         echo '<p>Deal Image 10 Large:</p>';
         echo '<input type="text" name="deal_image_11" value="' . $deal_image_11  . '" class="widefat" id="deal_image_11" />';
         
-        echo '<p>Deal File 1:</p>';
+        echo '<p>Deal File:</p>';
         echo '<input type="text" name="deal_file_1" value="' . $deal_file_1[0]  . '" class="widefat" id="deal_file_1" />';
+        /*
         echo '<p>Deal File 2:</p>';
         echo '<input type="text" name="deal_file_2" value="' . $deal_file_2[0]  . '" class="widefat" id="deal_file_2" />';
         echo '<p>Deal File 3:</p>';
@@ -533,7 +534,7 @@ function wpt_events_location() {
         echo '<input type="text" name="deal_file_4" value="' . $deal_file_4[0]  . '" class="widefat" id="deal_file_4" />';
         echo '<p>Deal File 5:</p>';
         echo '<input type="text" name="deal_file_5" value="' . $deal_file_5[0]  . '" class="widefat" id="deal_file_5" />';
-        
+        */
         echo '<p>Video Code (Youtube):</p>';
         echo '<input type="text" name="youtube" value="' . $youtube  . '" class="widefat" id="youtube" />';
         echo '<p>Latitude:</p>';

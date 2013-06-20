@@ -5,7 +5,7 @@
             <div class="footer-background">
                 <div class="footer-wripper">
                     <!-- BORDER-HORIZONTAL -->
-                    <div class="all-deals">
+                    <div class="all-deals home">
                         All deals
                     </div>
 

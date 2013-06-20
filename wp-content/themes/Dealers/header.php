@@ -209,7 +209,7 @@
                         
                         ?>
                     
-                    <a class="log_in_link" href="<?php echo $all_deals_link?>">All Deals</a><span class="log_in_link"> | </span>
+                    <a class="log_in_link" href="<?php echo home_url()?>">All Deals</a><span class="log_in_link"> | </span>
                          <a class="log_in_link" href="<?php echo get_permalink($pageposts[0]->ID)?>">Featured Deal</a><span class="log_in_link"> | </span>
                          <a class="log_in_link" href="<?php get_site_url(); ?>?page_id=8">Help?</a>
                          <!--<a class="log_in_link" href="<?php echo $submit_deal_link?>">Submit Deal</a>-->
@@ -274,7 +274,7 @@
                          if($_POST['mail']) {
                            //  echo $sendloop_username."---";
                                 mail( $sendloop_username, 'Email from page', $_POST['mail']);
-                            echo '<script>alert("Thank you for subscribe");</script>';
+                            echo '<script>alert("Thanks for subscribing to Instadeals!");</script>';
                         }
                         
                      ?>
@@ -303,7 +303,7 @@
                         
 
                                 <form action="" method="post" id="emailsend">
-                                    <input type="text" name="mail" value="" id="emailaddress" class="newsletter_email"/>
+                                    <input type="text" name="mail" value="" id="emailaddress" class="newsletter_email" placeholder="E.g. mail@mail.com"/>
                                     <input type="submit" name="FormButton_Subscribe" value="SUBSCRIBE NOW" id="FormButton_Subscribe" class="btn btn-bordo submit-email"/>
                                     
                                 </form>

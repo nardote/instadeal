@@ -26,7 +26,7 @@
                     <?php $copyright = get_option(THEME_NAME.'_footer_copyright');?>
                     <p><?php echo $copyright?></p>
                     <p class="link">
-                        <a href="<?php get_site_url(); ?>?page_id=8">Contact us</a> | <a href="#">Follow us on facebook</a>
+                        <a href="<?php get_site_url(); ?>?page_id=8">Contact us</a> | <a href="#">Follow us on Facebook</a>
                     </p>
                 </div><!--copy-text-->
             </div><!--footer-copy-->

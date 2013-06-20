@@ -136,10 +136,10 @@
                                         <span style="margin-top: 0;"><?php echo print_money_symbol($currency).' '.$you_save;?></span>
                                     </h2>
                                     <h3>
-                                        <span>Discount <?php echo $discount_perc;?></span>
+                                        <span>Discount: <?php echo $discount_perc;?></span>
                                     </h3>
                                    
-                                    <p><?php echo strip_tags(substr($posts->post_content,0,100));?> ...</p>
+                                    <p><?php echo substr(strip_tags($posts->post_content),0,115);?> ...</p>
                                    
                                     
                                     <?php
