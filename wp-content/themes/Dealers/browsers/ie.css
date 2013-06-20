@@ -1,0 +1,50 @@
+.sidebar_widget_holder #wp-calendar caption{
+    margin-bottom: -515px;
+    margin-top: -15px;
+}
+
+
+.footer_box-down #calendar_wrap{
+    float: left;
+    width: 271px;
+    background: url(../style/img/widget-bg-center.png) repeat-y;
+}
+
+.footer_box-down #wp-calendar caption{
+    margin-bottom: -515px;
+    margin-top: 30px;
+}
+
+.sidebar_widget_holder .twitter_ul li{
+    float: left;
+    width: 225px;
+}
+
+
+.footer_box-down .twitter_ul li{
+    float: left;
+    width: 225px;
+}
+
+.blog-right-center {
+    padding:24px 9px 0;
+    height:45px;
+}
+
+.small-center {
+    padding:5px 5px 0;
+    height:19px;
+}
+
+.form-content input {
+    width:420px;
+}
+
+.form-radio-button input {
+    width:15px;
+    height:15px;
+    background:none !important;
+    border:none;
+}
+
+.account-withdraw-input ul li.withdraw-input-two input {width: 410px;}

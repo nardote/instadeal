@@ -1,0 +1,16 @@
+/*
+Theme Name: Dealers
+Support URI: http://www.themeskingdom.com/support
+Description: Dealers, a premium Wordpress theme by Themeskingdom. Wordpress conversion by Themeskingdom.
+Author: Themeskingdom
+Author URI: http://www.themeskingdom.com/support/
+Version: 1.6
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Theme URI: http://www.themeskingdom.com/
+Tags: white, red, editor-style, custom-menu
+*/
+
+
+@import url("style/reset.css");
+@import url("style/style.css");

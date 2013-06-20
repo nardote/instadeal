@@ -1,0 +1,123 @@
+/*----------//// LOGIN \\\\-------------*/
+.logo-login-link{
+    width: 241px;
+    height: 68px;
+    margin: 0 auto;
+    padding: 185px 0 50px 0;
+}
+
+#loginform .button-primary, .submit #wp-submit{
+    background: url("img/login-button.png") no-repeat scroll center top transparent;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    display: block;
+    height: 37px;
+    margin: 0;
+    padding: 0;
+    width: 112px;
+}
+
+.submit #wp-submit{position: relative;top: -15px;}
+
+#loginform .button-primary:hover, .submit #wp-submit:hover{
+    background-position: bottom;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.login #nav a, .login #backtoblog a , .login #nav, .login #backtoblog , div.updated, .login .message {
+    color: #BEBEBE!important;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    width:283px;
+    text-shadow: none;
+}
+
+
+
+.login label{
+    color: #BEBEBE;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    padding: 0 0 15px;
+}
+
+.login form{
+    width: 275px;
+    border: 1px solid #e2e2e2;
+    background-color: #fcfcfc;
+    margin: 0 auto;
+}
+
+.content-login h4{
+    width: 384px;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    margin: 27px 0 30px 0;
+}
+
+.form-login{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.form-content-login{
+    margin: 0 auto;
+    width: 290px;
+}
+
+.login form .input {
+    color: #bebebe;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    width: 275px;
+    height: 35px;
+    margin: 0 17px 28px 0;
+    padding-left: 10px;
+    -moz-box-sizing: border-box;
+}
+
+.form-login .button-send-center{padding: 12px 30px 0;}
+
+.login-links{
+    width: 100%;
+    height: 15px;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.login-links a{
+    text-align: center;
+    color: #bebebe;
+    font-family: 'Helvetica';
+    font-size: 14px;
+}
+
+.login-links a:hover{color: #eb3f3f;}
+
+#nav {
+    margin:0 !important;
+}
+#backtoblog {
+    margin:0 !important;
+}
+
+br.clear{clear: none!important;}
+
+#reg_passmail{
+    color: #BEBEBE;
+    font-family: 'Helvetica';
+    font-size: 14px;
+    padding: 0 0 15px;
+    width: 150px;
+    display: inline-block;
+    float: left;
+}

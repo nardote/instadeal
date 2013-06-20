@@ -1,0 +1,51 @@
+table#wp-calendar caption {width:252px!important;  color:#757264; font-size:12px; text-align:left;margin:0 0 0px 0;padding:14px 0 0px 34px;font-family:'Kreon';background:#fff;height: 23px;height:25px\0/;border:1px solid #DDDDDD;border-bottom:1px solid #fff;-moz-border-radius: 5px 5px 0 0 ;-webkit-border-radius: 5px 5px 0 0 ;-khtml-border-radius:5px 5px 0 0 ;border-radius:5px 5px 0 0 ;}
+table#wp-calendar caption span {margin:-2px 0 0 0!important;float:left!important;}
+#wp-calendar a{padding:0!important;}
+#wp-calendar{ background-position:bottom;background:#f8f7f7!important;font-size:12px; margin:8px 0 0 0;  text-align:center;width: 288px;background:#f4f2f2;border:1px solid #DDDDDD;float:left;-moz-border-radius: 0 0 5px 5px;-webkit-border-radius: 0 0 5px 5px;-khtml-border-radius: 0 0 5px 5px;border-radius: 0 0 5px 5px;border-collapse:separate;}
+#wp-calendar th{ text-align: inherit; color:#595959;  font-weight:regular; text-align:center;padding:0 0 0px 0;_padding:0;width:20px;_width:20px;height:32px;*height:25px;*width:25px;*padding:0 0 0 4px; background:#FFF ; }
+#wp-calendar td{  color:#404040; padding:0 4px 0 4px;*padding:0 4px 0 4px; width:20px;height:32px;*height:25px;*width:25px; list-style-type:none;text-align:center;}
+#wp-calendar #today {background:#fff;border:1px solid #DDDDDD;height:14px;width:20px;display:block;left:6px;padding:2px 5px 5px;position:relative;top:3px;}
+#wp-calendar td.pad{ height:0px;margin:0px;padding:0px;font-size:0px;line-height:0px;}
+#wp-calendar #prev a{height:10px;margin:10px;padding:0px;font-size:0px;line-height:0px;}
+#wp-calendar #next a{height:0px;margin:0px;padding:0px;font-size:0px;line-height:0px;}
+#wp-calendar #prev{height:0px;margin:0px;padding:0px;font-size:0px;line-height:0px;display:none;position:relative;top: 5px!important;float:left;}
+#wp-calendar #next{height:10px;margin:0px;padding:0px;font-size:0px;line-height:0px;display:none;position:relative;top: 5px;left: 42px;float:left;width:5px;}
+#wp-calendar td a{font-family:Helvetica!important;font-size:12px!important;color:#C25151!important; padding:0 4px 0 4px!important;*padding:0 4px 0 4px!important; width:20px!important;height:32px!important;*height:25px!important;*width:25px!important; list-style-type:none!important;text-align:center!important; background: none repeat scroll 0 0 transparent!important;} 
+#wp-calendar tfoot td#prev a{height:10px;margin:0px;padding:0px;font-size:0px;line-height:0px;display:block;background:transparent;position:relative;top:-2px;left:-3px;width:10px;}
+#wp-calendar tfoot td#next a{height:10px;margin:0px;padding:0px;font-size:0px;line-height:0px;display:block;background:transparent;position:relative;top:-2px;left:-3px;width:10px;}
+#wp-calendar tfoot td#prev{height:10px;margin:0px;padding:0px;font-size:0px;line-height:0px;display:block;position:relative;top:5px;left:18px;float:left;width:5px;}
+#wp-calendar tfoot{height:0px;margin:0px;padding:0px;font-size:0px;line-height:0px;display:block;position:relative;top:-60px;float:left;}
+#wp-calendar tbody{position:relative;top:-50px;height: 120px !important;}
+#wp-calendar tbody tr{background-position:bottom;}
+#footer #wp-calendar tbody tr{background-position:bottom;}
+#footer table#wp-calendar caption {color:#b2a693;background:#333333;border:1px solid #242424;border-bottom:0px;}
+#footer #wp-calendar {background:#292929!important;border:1px solid #242424;}
+#footer #wp-calendar td{color:#c2c1c1!important;}
+#footer #wp-calendar #today{background:#333333;border:1px solid #242424;}
+#footer #wp-calendar th{color:#878787!important;background:#333333;}
+#footer #wp-calendar tfoot td#prev{}
+#footer #wp-calendar tfoot td#next{}
+#wp-calendar *{	text-shadow:none!important;}
+#footer table#wp-calendar{ margin: 16px 0 0;}
+#footer table#wp-calendar td a{border: 0px;margin: 0px;text-decoration: none;}  
+
+
+.panes{display: block;
+margin-bottom: 10px !important;
+margin-left: 0px !important;
+margin-right: 0px !important;
+margin-top: 0px !important;
+padding-bottom: 20px !important;
+padding-left: 0px !important;
+padding-right: 0px !important;
+padding-top: 0px !important;
+width: 100% !important;}
+.pane{
+     display: block;
+padding-bottom: 0px;
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 0px;
+width: 90%;
+    
+}
