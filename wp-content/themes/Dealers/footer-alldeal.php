@@ -1,4 +1,8 @@
 <!------ FOOTER ------>
+<?php global $posts; 
+$feature_deal = $posts;
+
+?>
 
     <div class="footer">
         <div class="wrapper">
@@ -37,14 +41,17 @@
           /*  echo "<pre>";
                                        print_r($GLOBALS[ 'categoria' ][0]->cat_ID);
                                        echo "</pre>"; */
-            $args=array('cat'=> $GLOBALS[ 'categoria' ][0]->cat_ID,'post_type' => 'deals', 'post_status' => 'publish','paged' => 0,'posts_per_page' => 6,'ignore_sticky_posts'=> 1, 'orderby'=>'rand');
+            $args=array('post_type' => 'deals', 'post_status' => 'publish','paged' => 0,'ignore_sticky_posts'=> 1,'order' => 'DESC');
 
             //The Query
             query_posts($args);
             $post_counter = 1;
             //The Loop
             if ( have_posts() ) : while ( have_posts() ) : the_post();
-
+         //   echo $post->ID .'---'. $feature_deal->ID;
+                    if($post->ID == $feature_deal->ID) {
+                        continue;
+                    }
                     $currency = get_option(THEME_NAME.'_currency');
                     $real_price = get_post_meta($post->ID, 'real_price', true);
                     $discount_price = get_post_meta($post->ID, 'discount_price', true);
@@ -76,8 +83,9 @@
                         $end_date = explode('/', $end_date1);
                     };
                     @$discount_perc = ($discount_price*100)/$real_price;
-                    $discount_perc = 100-$discount_perc;
+                    $discount_perc = $discount_perc;
                     $discount_perc = round($discount_perc, 0).'%';
+                    
                     if($discount_perc<0){$discount_perc = 'invalid entry';}
                     $you_save = $real_price-$discount_price;
                     if($you_save<0){$you_save = 'invalid entry';}

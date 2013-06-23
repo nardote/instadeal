@@ -543,10 +543,11 @@ function wpt_events_location() {
         echo '<input type="text" name="longitud" value="' . $longitud  . '" class="widefat" id="longitud" />';
         echo '<p>Address:</p>';
         echo '<input type="text" name="address" value="' . $address  . '" class="widefat" id="address" />';
-        echo '<p>Telephone:</p>';
-        echo '<input type="text" name="tel" value="' . $tel  . '" class="widefat" id="tel" />';
-        echo '<p>Email:</p>';
-        echo '<input type="text" name="email" value="' . $email  . '" class="widefat" id="email" />';
+        echo '<p>Contact informartion:</p>';
+        echo '<textarea name="tel">' . $tel  . '</textarea>';
+//echo '<input type="text" name="tel" value="' . $tel  . '" class="widefat" id="tel" />';
+        /*echo '<p>Email:</p>';
+        echo '<input type="text" name="email" value="' . $email  . '" class="widefat" id="email" />';*/
         
         
         

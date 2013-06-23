@@ -120,7 +120,7 @@
                         $end_date = explode('/', $end_date1);
                     };
                     @$discount_perc = ($discount_price*100)/$real_price;
-                    $discount_perc = 100-$discount_perc;
+                    $discount_perc = $discount_perc;
                     $discount_perc = round($discount_perc, 0).'%';
                     if($discount_perc<0){$discount_perc = 'invalid entry';}
                     $you_save = $real_price-$discount_price;
@@ -317,7 +317,7 @@
             
             <div class="datos-deal">
                 <h3>Get this deal</h3>
-                <p>Contact Information:<br><?php echo $tel; ?>, <?php echo $email; ?></p>
+                <p>Contact Information:<br><?php echo $tel; ?></p>
                 <?php if ($latitude != '' && $longitude != '') : ?>
                 <script type="text/javascript"
                     src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAxi-FTjBD-JsDR1iqVylSyHJAyyX3wRaI&sensor=false">

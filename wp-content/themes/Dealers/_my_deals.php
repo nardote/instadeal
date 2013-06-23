@@ -80,7 +80,7 @@ else{
                         $end_date = explode('/', $end_date1);
                     };
                     $discount_perc = ($discount_price*100)/$real_price;
-                    $discount_perc = 100-$discount_perc;
+                    $discount_perc = $discount_perc;
                     $discount_perc = round($discount_perc, 0).'%';
                     if($discount_perc<0){$discount_perc = 'invalid entry';}
                     $you_save = $real_price-$discount_price;

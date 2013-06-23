@@ -50,6 +50,7 @@
           
                
                $posts = $pageposts[0];
+              
            
             if ( $posts ) : 
                 
@@ -87,7 +88,7 @@
                     };
                   
                     $discount_perc = ($discount_price*100)/$real_price;
-                    $discount_perc = 100-$discount_perc;
+                    $discount_perc = $discount_perc;
                     $discount_perc = round($discount_perc, 0).'%';
                     if($discount_perc<0){$discount_perc = 'invalid entry';}
                     $you_save = $real_price-$discount_price;

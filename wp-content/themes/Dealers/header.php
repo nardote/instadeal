@@ -281,7 +281,7 @@
 
              <!-- Sendloop -->
                      <div class="header-right-background">
-                        <span>Sign up for free to get deals directly to your mailbox &raquo;</span>
+                        <span>Want deals? Sign up for free &raquo;</span>
 
                         <!--SEARCH-->
                         <script>

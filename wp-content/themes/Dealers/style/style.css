@@ -206,7 +206,7 @@ h5{
    position: absolute;
    top:0;
    right:0;
-    width: 534px;
+    width: 423px;
    /* height: 133px;*/
     /*background:url(../style/img/header-right.png) no-repeat;*/
     background:#000;
@@ -1189,7 +1189,7 @@ min-width: 0;
     font-size: 13px;
     font-family: 'Helvetica';
     line-height: 23px;
-    margin-bottom: 30px;
+   /* margin-bottom: 30px;*/
 }
 
 
@@ -2553,5 +2553,24 @@ ul {
     color:#fff;
 }
 
+div.wpcf7 {
+    margin-bottom: 30px !important;
+}
+
+.faq h1 {
+    float:none;
+}
+.faq h2 {
+    height:auto;
+    margin-top: 10px;
+}
+.faq p {
+    margin-top: 0;
+    padding-right: 15px;
+}
+
+input[type="file"] {
+    padding-top:10px;
+}
 
     
